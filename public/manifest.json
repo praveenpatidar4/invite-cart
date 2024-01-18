@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "inviteCard",
+  "name": "Create inviteCard App",
   "icons": [
     {
       "src": "favicon.ico",
