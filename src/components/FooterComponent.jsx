@@ -5,8 +5,11 @@ import twitterIcon from "../images/icons/icon_twitter.svg"
 import linkedinIcon from "../images/icons/icon_linkedin.svg"
 import googleIcon from "../images/icons/icon_google.svg"
 import facebookIcon from "../images/icons/icon_facebook.svg"
+import ContactComponent from "./ContactComponent";
 const FooterComponent = () => {
   return (
+    <>
+    <ContactComponent/>
     <footer className="ic_footer">
       <div className="container">
         <div className="row">
@@ -123,6 +126,7 @@ const FooterComponent = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 

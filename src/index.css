@@ -399,6 +399,52 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+/* Contact style */
+.ic_page_contact_wrapper{
+  border-top: 1px solid var(--ic_divider_color);
+  padding: 50px 0 36px;
+}
+.ic_page_contact_wrapper .ic_heading_wrapper p{
+  margin-bottom: 18px;
+}
+.ic_contact_info{
+  display: flex;
+  justify-content:space-around;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.ic_contact_info_item{
+  display: flex;
+  align-items:center;
+  gap: 12px;
+}
+.ic_contact_info_item .ic_contact_info_icon{
+  width: 40px;
+  height: 40px;
+  background: var(--ic_bg_gradient_color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.ic_contact_info_item .ic_contact_info_details a{
+  text-decoration: none;
+  color: var(--ic_primary_dark_text_color);
+}
+/* Inner page style */
+.ic_inner_content_wrapper{
+  margin-top: 16px;
+}
+.ic_inner_page_wrapper{
+  border: 1px solid var(--ic_divider_color);
+  border-radius: 10px;
+}
+.ic_inner_page_wrapper .ic_inner_header_wrap{
+  padding: 34px 30px;
+  border-radius: 10px 10px 0 0 ;
+  background: var(--ic_primary_background_color);
+}
 /* Responsive */
 @media screen and (max-width: 1199px) {
   .ic_navbar_nav {

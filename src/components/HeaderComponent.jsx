@@ -360,7 +360,7 @@ const HeaderComponent = () => {
                   />
                 </Link>
                 <ul
-                  className="dropdown-menu ic_dropdown_menu"
+                  className="dropdown-menu ic_dropdown_menu dropdown-menu-end"
                   data-popper-placement="bottom-end"
                 >
                   <li>
